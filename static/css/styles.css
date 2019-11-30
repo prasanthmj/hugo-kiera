@@ -211,12 +211,20 @@ time {
 }
 
 a {
-  color: #666666;
+  color: #d3152e;
+  text-decoration: underline;
+}
+
+h1 > a
+{
+  color: #666;
   text-decoration: none;
 }
 
 .image, figure img, img {
-  width: 100%;
+  /*width: 100%; */
+  display: block;
+  margin:10px 0;
   box-shadow: 0 3px 3px #bbbbbb;
 }
 
